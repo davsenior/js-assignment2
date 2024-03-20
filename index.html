@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seniors Smoothie House</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/smoothie.png"> <!--ALL CREDITS BELONGS TO: ICONIXAR - https://www.flaticon.com/free-icon/smoothie_4080639-->
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!--Flavour options-->
+        <h1>Create Your Smoothie</h1>
+        <form id="smoothieForm">
+            <label for="flavor">Select Flavor:</label>
+            <select id="flavor" name="flavor">
+                <option value="strawberry">Strawberry</option>
+                <option value="banana">Banana</option>
+                <option value="mango">Mango</option>
+                <option value="blueberry">Blueberry</option>
+            </select><br>
+            <!--Size options-->
+            <label for="size">Select Size:</label><br>
+                <label for="small">Small ($5.00)</label><br>
+                <input type="radio" id="small" name="size" value="small">
+                <label for="medium">Medium ($6.50)</label><br>
+                <input type="radio" id="medium" name="size" value="medium">
+                <label for="large">Large ($8.00)</label><br>
+                <input type="radio" id="large" name="size" value="large">
+            </form>
+            <div id="smoothieDescription"></div>
+        </div>
+    </body>
+    </html>
