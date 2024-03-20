@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 5px;
+    background-color: #f9f5f3; 
+}
+
+h1 {
+    text-align: center;
+    color: #ff5a5f;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #ff5a5f; 
+    margin-bottom: 30px;
+    color: crimson;
+}
+
+form {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-image: url("../img/background.jpeg"); /* ALL CREDITS BELONGS TO BillionPhotos @: https://www.freepik.com/premium-photo/fruit-smoothie-isolated-white-background_25206494.htm*/
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+label {
+    display: block;
+    color: #ff5a5f; 
+    font-weight: bold;
+}
