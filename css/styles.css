@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 5px;
-    background-color: #f9f5f3; 
+    background-color: #f9f5f3; /* Light peach */
 }
 
 h1 {
@@ -25,13 +25,66 @@ form {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
     background-image: url("../img/background.jpeg"); /* ALL CREDITS BELONGS TO BillionPhotos @: https://www.freepik.com/premium-photo/fruit-smoothie-isolated-white-background_25206494.htm*/
-    background-size: cover; 
+    background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
 }
 
 label {
     display: block;
-    color: #ff5a5f; 
+    color: #ff5a5f;
     font-weight: bold;
+}
+
+label[for="extras"],
+label[for="size"],
+label[for="flavor"] {
+    font-size: 1.8em;
+    color: crimson;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+
+}
+
+input[type="radio"]:last-child,
+input[type="checkbox"]:last-child {
+    margin-right: 0;
+}
+
+input[type="submit"] {
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #e1494b;
+}
+
+#smoothieDescription {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-image: url("../img/background-2.jpeg"); /* ALL CREDITS BELONGS TO https://canoeracing.org.uk/sprint/local-regattas/healthy-yellow-smoothie-in-bottles-over-concrete-background-copy-ww-16154598 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+#smoothieDescription h2 {
+    color: #ff5a5f;
+    margin-bottom: 20px;
+}
+
+#smoothieDescription p {
+    color: rgb(72, 45, 51);
 }
